@@ -111,6 +111,32 @@ library.themes = {
         }
     },
     {
+        name = 'Default Red',
+        theme = {
+            ['Accent']                    = fromrgb(228,52,52);
+            ['Background']                = fromrgb(18,18,18);
+            ['Border']                    = fromrgb(106,89,254);
+            ['Border 1']                  = fromrgb(12,12,12);
+            ['Border 2']                  = fromrgb(35,35,35);
+            ['Border 3']                  = fromrgb(0,0,0);
+            ['Primary Text']              = fromrgb(235,235,235);
+            ['Group Background']          = fromrgb(18,18,18);
+            ['Selected Tab Background']   = fromrgb(18,18,18);
+            ['Unselected Tab Background'] = fromrgb(15,15,15);
+            ['Selected Tab Text']         = fromrgb(245,245,245);
+            ['Unselected Tab Text']       = fromrgb(145,145,145);
+            ['Section Background']        = fromrgb(9,9,9);
+            ['Option Text 1']             = fromrgb(245,245,245);
+            ['Option Text 2']             = fromrgb(135,135,135);
+            ['Option Text 3']             = fromrgb(145,145,145);
+            ['Option Border 1']           = fromrgb(11,11,11);
+            ['Option Border 2']           = fromrgb(0,0,0);
+            ['Option Background']         = fromrgb(12,12,12);
+            ["Risky Text"]                = fromrgb(175, 21, 21);
+            ["Risky Text Enabled"]        = fromrgb(255, 41, 41);
+        }
+    },
+    {
         name = 'Tokyo Night',
         theme = {
             ['Accent']                    = fromrgb(103,89,179);
