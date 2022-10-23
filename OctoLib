@@ -111,7 +111,7 @@ library.themes = {
         }
     },
     {
-        name = 'Default Red',
+        name = 'Com-Bot Red',
         theme = {
             ['Accent']                    = fromrgb(228,52,52);
             ['Background']                = fromrgb(18,18,18);
