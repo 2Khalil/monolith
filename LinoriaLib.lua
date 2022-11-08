@@ -3007,7 +3007,3 @@ function Library:CreateWindow(...)
 end;
 
 return Library
-
-if CoreGui:FindFirstChild(letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..numbers[math.random(1,#numbers)]..letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..numbers[math.random(1,#numbers)]..numbers[math.random(1,#numbers)]..letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..symbols[math.random(1,#symbols)]..symbols[math.random(1,#symbols)]..letters[math.random(1,#letters)]..symbols[math.random(1,#symbols)]..symbols[math.random(1,#symbols)]..numbers[math.random(1,#numbers)]..letters[math.random(1,#letters)]..numbers[math.random(1,#numbers)]..letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..numbers[math.random(1,#numbers)]..letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..numbers[math.random(1,#numbers)]..numbers[math.random(1,#numbers)]..letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..symbols[math.random(1,#symbols)]..symbols[math.random(1,#symbols)]..letters[math.random(1,#letters)]..symbols[math.random(1,#symbols)]) then
-    Library:Unload()
-end
