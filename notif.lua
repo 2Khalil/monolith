@@ -20,7 +20,7 @@ LockNotif.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 MainFrame.Parent = LockNotif
 MainFrame.BackgroundColor3 = Color3.fromRGB(154, 38, 255)
 MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-MainFrame.Position = UDim2.new(1, 0, 0, 0)
+MainFrame.Position = UDim2.new(-0.229, 0, 0.007, 0)
 MainFrame.Size = UDim2.new(0, 390, 0, 20)
 
 DescAndTitle.Parent = MainFrame
@@ -44,7 +44,7 @@ function Notifaction(Title, Desc, ExitTime)
 	Notifaction.Visible = true
 	Notifaction.DescAndTitle.Text = Title..": "..Desc
 	
-	T:Create(Notifaction, TS, {Position = UDim2.new(0, 0, 0, 0)}):Play()
+	T:Create(Notifaction, TS, {Position = UDim2.new(0.004, 0, 0.007, 0)}):Play()
 	
 	wait(1)
 	
@@ -52,8 +52,8 @@ function Notifaction(Title, Desc, ExitTime)
 		if typeof(ExitTime) == "number" then
 			task.wait(ExitTime)
 			local s = pcall(function()
-				T:Create(Notifaction, TS, {Position = UDim2.new(1.15, 0, 0, 0)}):Play()
-				wait(0.48)
+				T:Create(Notifaction, TS, {Position = UDim2.new(-0.229, 0, 0.007, 0)}):Play()
+				wait(0.52)
 				Notifaction:Destroy()
 			end)
 			if not s then
