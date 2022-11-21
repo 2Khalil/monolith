@@ -29,7 +29,7 @@ DescAndTitle.BorderSizePixel = 0
 DescAndTitle.Position = UDim2.new(0, 1, 0, 1)
 DescAndTitle.Size = UDim2.new(0, 388, 0, 18)
 DescAndTitle.Font = Enum.Font.Code
-DescAndTitle.Text = nil
+DescAndTitle.Text = ...
 DescAndTitle.TextColor3 = Color3.fromRGB(209, 209, 209)
 DescAndTitle.TextSize = 14.000
 DescAndTitle.TextStrokeTransparency = 0.000
@@ -40,14 +40,14 @@ local T = TweenInfo.new(0.5, Enum.EasingStyle.Quint)
 
 function Notifaction(Title, Desc, ExitTime)
 	local Notifaction = MainFrame:Clone()
-	
+
 	Notifaction.Visible = true
 	Notifaction.DescAndTitle.Text = Title..": "..Desc
-	
+
 	T:Create(Notifaction, TS, {Position = UDim2.new(0.004, 0, 0.007, 0)}):Play()
-	
+
 	wait(1)
-	
+
 	spawn(function()
 		if typeof(ExitTime) == "number" then
 			task.wait(ExitTime)
