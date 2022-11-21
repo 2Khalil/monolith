@@ -14,7 +14,7 @@ end
 --Properties:
 
 LockNotif.Name = "LockNotif"
-LockNotif.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+LockNotif.Parent = game.CoreGui
 LockNotif.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 MainFrame.Parent = LockNotif
@@ -29,7 +29,7 @@ DescAndTitle.BorderSizePixel = 0
 DescAndTitle.Position = UDim2.new(0, 1, 0, 1)
 DescAndTitle.Size = UDim2.new(0, 388, 0, 18)
 DescAndTitle.Font = Enum.Font.Code
-DescAndTitle.Text = "Title"--[[Put title here]].." : random text" -- and desc
+DescAndTitle.Text = "Title: random text"
 DescAndTitle.TextColor3 = Color3.fromRGB(209, 209, 209)
 DescAndTitle.TextSize = 14.000
 DescAndTitle.TextStrokeTransparency = 0.000
