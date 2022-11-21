@@ -20,7 +20,7 @@ LockNotif.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 MainFrame.Parent = LockNotif
 MainFrame.BackgroundColor3 = Color3.fromRGB(154, 38, 255)
 MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-MainFrame.Position = UDim2.new(0.400586516, 0, 0.549411774, 0)
+MainFrame.Position = UDim2.new(1, 0, 0, 0)
 MainFrame.Size = UDim2.new(0, 390, 0, 20)
 
 DescAndTitle.Parent = MainFrame
@@ -29,7 +29,7 @@ DescAndTitle.BorderSizePixel = 0
 DescAndTitle.Position = UDim2.new(0, 1, 0, 1)
 DescAndTitle.Size = UDim2.new(0, 388, 0, 18)
 DescAndTitle.Font = Enum.Font.Code
-DescAndTitle.Text = "Title: random text"
+DescAndTitle.Text = nil
 DescAndTitle.TextColor3 = Color3.fromRGB(209, 209, 209)
 DescAndTitle.TextSize = 14.000
 DescAndTitle.TextStrokeTransparency = 0.000
