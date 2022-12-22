@@ -7,7 +7,7 @@ local ScreenGui = Instance.new('ScreenGui');
 local gen = (letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..numbers[math.random(1,#numbers)]..letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..numbers[math.random(1,#numbers)]..numbers[math.random(1,#numbers)]..letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..symbols[math.random(1,#symbols)]..symbols[math.random(1,#symbols)]..letters[math.random(1,#letters)]..symbols[math.random(1,#symbols)]..symbols[math.random(1,#symbols)]..numbers[math.random(1,#numbers)]..letters[math.random(1,#letters)]..numbers[math.random(1,#numbers)]..letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..numbers[math.random(1,#numbers)]..letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..numbers[math.random(1,#numbers)]..numbers[math.random(1,#numbers)]..letters[math.random(1,#letters)]..letters[math.random(1,#letters)]..symbols[math.random(1,#symbols)]..symbols[math.random(1,#symbols)]..letters[math.random(1,#letters)]..symbols[math.random(1,#symbols)])
 
 if CoreGui:FindFirstChild("solitution."..gen) then
-    ScreenGui:Destroy()
+    CoreGui["solitution."..gen]:Destroy()
 end
 
 local InputService = game:GetService('UserInputService');
