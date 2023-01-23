@@ -1,3 +1,4 @@
+-- hiiii
 --[[
 
     Library Made for https://octohook.xyz/
@@ -87,25 +88,25 @@ library.themes = {
     {
         name = 'Default',
         theme = {
-            ['Accent']                    = fromrgb(91,91,199);
-            ['Background']                = fromrgb(17,17,17);
+            ['Accent']                    = fromrgb(87,84,123);
+            ['Background']                = fromrgb(15,15,15);
             ['Border']                    = fromrgb(0,0,0);
-            ['Border 1']                  = fromrgb(31,31,31);
-            ['Border 2']                  = fromrgb(16,16,16);
-            ['Border 3']                  = fromrgb(9,9,9);
-            ['Primary Text']              = fromrgb(168,168,168);
-            ['Group Background']          = fromrgb(19,19,19);
+            ['Border 1']                  = fromrgb(34,34,34);
+            ['Border 2']                  = fromrgb(15,15,15);
+            ['Border 3']                  = fromrgb(0,0,0);
+            ['Primary Text']              = fromrgb(123,123,123);
+            ['Group Background']          = fromrgb(18,18,18);
             ['Selected Tab Background']   = fromrgb(19,19,19);
-            ['Unselected Tab Background'] = fromrgb(16,16,16);
-            ['Selected Tab Text']         = fromrgb(172,172,172);
-            ['Unselected Tab Text']       = fromrgb(109,109,109);
-            ['Section Background']        = fromrgb(16,16,16);
+            ['Unselected Tab Background'] = fromrgb(15,15,15);
+            ['Selected Tab Text']         = fromrgb(180,180,180);
+            ['Unselected Tab Text']       = fromrgb(102,102,102);
+            ['Section Background']        = fromrgb(18,18,18);
             ['Option Text 1']             = fromrgb(227,227,227);
             ['Option Text 2']             = fromrgb(180,180,180);
             ['Option Text 3']             = fromrgb(132,132,132);
-            ['Option Border 1']           = fromrgb(21,21,21);
-            ['Option Border 2']           = fromrgb(28,28,28);
-            ['Option Background']         = fromrgb(33,33,33);
+            ['Option Border 1']           = fromrgb(0,0,0);
+            ['Option Border 2']           = fromrgb(26,26,26);
+            ['Option Background']         = fromrgb(21,21,21);
             ["Risky Text"]                = fromrgb(114, 31, 31);
             ["Risky Text Enabled"]        = fromrgb(185, 51, 51);
         }
