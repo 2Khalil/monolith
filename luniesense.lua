@@ -1,4 +1,4 @@
--- hiiii
+-- modified by lunie / drumour
 --[[
 
     Library Made for https://octohook.xyz/
@@ -94,7 +94,7 @@ library.themes = {
             ['Border 1']                  = fromrgb(34,34,34);
             ['Border 2']                  = fromrgb(15,15,15);
             ['Border 3']                  = fromrgb(0,0,0);
-            ['Primary Text']              = fromrgb(123,123,123);
+            ['Primary Text']              = fromrgb(180,180,180);
             ['Group Background']          = fromrgb(18,18,18);
             ['Selected Tab Background']   = fromrgb(19,19,19);
             ['Unselected Tab Background'] = fromrgb(15,15,15);
