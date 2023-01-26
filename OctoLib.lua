@@ -87,107 +87,29 @@ library.themes = {
     {
         name = 'Default',
         theme = {
-            ['Accent']                    = fromrgb(96,80,229);
-            ['Background']                = fromrgb(16,16,16);
-            ['Border']                    = fromrgb(96,80,229);
-            ['Border 1']                  = fromrgb(1,1,1);
-            ['Border 2']                  = fromrgb(42,42,42);
-            ['Border 3']                  = fromrgb(1,1,1);
-            ['Primary Text']              = fromrgb(235,235,235);
-            ['Group Background']          = fromrgb(18,18,18);
-            ['Selected Tab Background']   = fromrgb(18,18,18);
-            ['Unselected Tab Background'] = fromrgb(15,15,15);
-            ['Selected Tab Text']         = fromrgb(245,245,245);
-            ['Unselected Tab Text']       = fromrgb(145,145,145);
-            ['Section Background']        = fromrgb(9,9,9);
-            ['Option Text 1']             = fromrgb(245,245,245);
-            ['Option Text 2']             = fromrgb(135,135,135);
-            ['Option Text 3']             = fromrgb(145,145,145);
-            ['Option Border 1']           = fromrgb(11,11,11);
-            ['Option Border 2']           = fromrgb(0,0,0);
-            ['Option Background']         = fromrgb(27,27,27);
-            ["Risky Text"]                = fromrgb(175, 21, 21);
-            ["Risky Text Enabled"]        = fromrgb(255, 41, 41);
-        }
-    },
-    {
-        name = 'Old Com-Bot theme',
-        theme = {
-            ['Accent']                    = fromrgb(106,89,254);
-            ['Background']                = fromrgb(18,18,18);
-            ['Border']                    = fromrgb(106,89,254);
-            ['Border 1']                  = fromrgb(12,12,12);
-            ['Border 2']                  = fromrgb(35,35,35);
+            ['Accent']                    = fromrgb(87,84,123);
+            ['Background']                = fromrgb(15,15,15);
+            ['Border']                    = fromrgb(0,0,0);
+            ['Border 1']                  = fromrgb(34,34,34);
+            ['Border 2']                  = fromrgb(15,15,15);
             ['Border 3']                  = fromrgb(0,0,0);
-            ['Primary Text']              = fromrgb(235,235,235);
+            ['Primary Text']              = fromrgb(180,180,180);
             ['Group Background']          = fromrgb(18,18,18);
-            ['Selected Tab Background']   = fromrgb(18,18,18);
+            ['Selected Tab Background']   = fromrgb(19,19,19);
             ['Unselected Tab Background'] = fromrgb(15,15,15);
-            ['Selected Tab Text']         = fromrgb(245,245,245);
-            ['Unselected Tab Text']       = fromrgb(145,145,145);
-            ['Section Background']        = fromrgb(9,9,9);
-            ['Option Text 1']             = fromrgb(245,245,245);
-            ['Option Text 2']             = fromrgb(135,135,135);
-            ['Option Text 3']             = fromrgb(145,145,145);
-            ['Option Border 1']           = fromrgb(11,11,11);
-            ['Option Border 2']           = fromrgb(0,0,0);
-            ['Option Background']         = fromrgb(12,12,12);
-            ["Risky Text"]                = fromrgb(175, 21, 21);
-            ["Risky Text Enabled"]        = fromrgb(255, 41, 41);
+            ['Selected Tab Text']         = fromrgb(180,180,180);
+            ['Unselected Tab Text']       = fromrgb(102,102,102);
+            ['Section Background']        = fromrgb(18,18,18);
+            ['Option Text 1']             = fromrgb(227,227,227);
+            ['Option Text 2']             = fromrgb(180,180,180);
+            ['Option Text 3']             = fromrgb(132,132,132);
+            ['Option Border 1']           = fromrgb(0,0,0);
+            ['Option Border 2']           = fromrgb(26,26,26);
+            ['Option Background']         = fromrgb(21,21,21);
+            ["Risky Text"]                = fromrgb(114, 31, 31);
+            ["Risky Text Enabled"]        = fromrgb(185, 51, 51);
         }
     },
-    --[[{
-        name = 'Cat-Bot',
-        theme = {
-            ['Accent']                    = fromrgb(238,93,208);
-            ['Background']                = fromrgb(235,131,208);
-            ['Border']                    = fromrgb(244,242,244);
-            ['Border 1']                  = fromrgb(241,239,244);
-            ['Border 2']                  = fromrgb(241,107,244);
-            ['Border 3']                  = fromrgb(244,242,244);
-            ['Primary Text']              = fromrgb(226,225,244);
-            ['Group Background']          = fromrgb(241,130,244);
-            ['Selected Tab Background']   = fromrgb(227,226,232);
-            ['Unselected Tab Background'] = fromrgb(241,94,244);
-            ['Selected Tab Text']         = fromrgb(233,232,232);
-            ['Unselected Tab Text']       = fromrgb(238,232,236);
-            ['Section Background']        = fromrgb(9,9,9);
-            ['Option Text 1']             = fromrgb(245,245,245);
-            ['Option Text 2']             = fromrgb(135,135,135);
-            ['Option Text 3']             = fromrgb(145,145,145);
-            ['Option Border 1']           = fromrgb(11,11,11);
-            ['Option Border 2']           = fromrgb(0,0,0);
-            ['Option Background']         = fromrgb(12,12,12);
-            ["Risky Text"]                = fromrgb(175, 21, 21);
-            ["Risky Text Enabled"]        = fromrgb(255, 41, 41);
-        }
-    },
-    {
-        name = 'The Hub',
-        theme = {
-            ['Accent']                    = fromrgb(228,52,52);
-            ['Background']                = fromrgb(18,18,18);
-            ['Border']                    = fromrgb(228,52,52);
-            ['Border 1']                  = fromrgb(12,12,12);
-            ['Border 2']                  = fromrgb(35,35,35);
-            ['Border 3']                  = fromrgb(0,0,0);
-            ['Primary Text']              = fromrgb(235,235,235);
-            ['Group Background']          = fromrgb(18,18,18);
-            ['Selected Tab Background']   = fromrgb(18,18,18);
-            ['Unselected Tab Background'] = fromrgb(15,15,15);
-            ['Selected Tab Text']         = fromrgb(245,245,245);
-            ['Unselected Tab Text']       = fromrgb(145,145,145);
-            ['Section Background']        = fromrgb(9,9,9);
-            ['Option Text 1']             = fromrgb(245,245,245);
-            ['Option Text 2']             = fromrgb(135,135,135);
-            ['Option Text 3']             = fromrgb(145,145,145);
-            ['Option Border 1']           = fromrgb(11,11,11);
-            ['Option Border 2']           = fromrgb(0,0,0);
-            ['Option Background']         = fromrgb(12,12,12);
-            ["Risky Text"]                = fromrgb(175, 21, 21);
-            ["Risky Text Enabled"]        = fromrgb(255, 41, 41);
-        }
-    },]]
     {
         name = 'Tokyo Night',
         theme = {
