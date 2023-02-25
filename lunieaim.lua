@@ -41,6 +41,8 @@ local Lock = true
 local Epitaph = 0.0011 ---Note: The Bigger The Number, The More Prediction.
 local HeadOffset = Vector3.new(0, .1, 0)
 
+local mouse = game:GetService('Players').LocalPlayer:GetMouse(); -- we need the mouse object, which also has the keyboard
+
 -- watermark
 local watermark = Drawing.new("Text")
     watermark.Position = Vector2.new(MyView.ViewportSize.X / 2, MyView.ViewportSize.Y / 1.655)
@@ -107,7 +109,7 @@ _G.CircleColor = _G.MainColor
 _G.CircleTransparency = 100
 _G.CircleRadius = _G.size
 _G.CircleFilled = false
-_G.CircleVisible = true
+local CircleVisible = true
 _G.CircleThickness = 2
 
 -- outline FOV
@@ -118,7 +120,7 @@ FOVoutline.Position = Vector2.new(MyView.ViewportSize.X / 2, MyView.ViewportSize
 FOVoutline.Radius = _G.CircleRadius
 FOVoutline.Filled = _G.CircleFilled
 FOVoutline.Color = _G.Outline
-FOVoutline.Visible = _G.CircleVisible
+FOVoutline.Visible = CircleVisible
 FOVoutline.Transparency = _G.CircleTransparency
 FOVoutline.NumSides = _G.CircleSides
 FOVoutline.Thickness = _G.OutlineCircleThickness
@@ -128,10 +130,18 @@ FOVCircle.Position = Vector2.new(MyView.ViewportSize.X / 2, MyView.ViewportSize.
 FOVCircle.Radius = _G.CircleRadius
 FOVCircle.Filled = _G.CircleFilled
 FOVCircle.Color = _G.MainColor
-FOVCircle.Visible = _G.CircleVisible
+FOVCircle.Visible = CircleVisible
 FOVCircle.Transparency = _G.CircleTransparency
 FOVCircle.NumSides = _G.CircleSides
 FOVCircle.Thickness = _G.CircleThickness
+
+mouse.KeyDown:connect(function(key) -- whenever a key is pushed down
+	key = key:lower() 
+	if key == ']' then
+		FOVCircle.Visible = not FOVCircle.Visible
+		FOVoutline.Visible = not FOVoutline.Visible
+	end
+end)
 
 local function CursorLock()
     UIS.MouseBehavior = Enum.MouseBehavior.LockCenter
