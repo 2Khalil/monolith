@@ -22,7 +22,7 @@ if _G.femboymode == true then
     _G.MainTargetColor = Color3.fromRGB(219, 79, 219)
 end
 
-version = "1.0.9"
+version = "1.1.0"
 
 local Area = game:GetService("Workspace")
 local RunService = game:GetService("RunService")
